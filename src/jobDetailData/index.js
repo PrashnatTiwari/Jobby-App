@@ -177,11 +177,11 @@ class JobDetailData extends Component {
           <h1 className="skill">Skills</h1>
           <ul className="unordered-skill-list">
             {companySkillsData.map(eachItem => (
-              <li className="skills-list-item">
+              <li className="skills-list-item" key={eachItem.skillName}>
                 <img
                   src={eachItem.imageUrl}
                   className="skill-image"
-                  alt={eachItem.name}
+                  alt={eachItem.skillName}
                 />
                 <p className="skill-name">{eachItem.skillName}</p>
               </li>
