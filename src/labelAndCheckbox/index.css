@@ -1,0 +1,15 @@
+.checkbox-label-container {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.label {
+  margin-bottom: 19px;
+  font-size: 12px;
+}
+
+.checkbox-input {
+  cursor: pointer;
+}

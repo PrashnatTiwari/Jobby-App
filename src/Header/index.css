@@ -1,0 +1,38 @@
+.top-container {
+  background-color: #272727;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-logo {
+  height: 30px;
+  width: 100px;
+  margin-left: 40px;
+}
+
+.home-job-container {
+  width: 8vw;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.logout-button {
+  color: white;
+  background-color: #4f46e5;
+  text-align: center;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+  width: 7vw;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.home {
+  color: white;
+}
