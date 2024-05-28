@@ -169,9 +169,9 @@ class JobDetailData extends Component {
           <hr className="job-details-horizontal-line" />
           <div className="visit-link-container">
             <h1 className="job-description-paragraph">Description</h1>
-            <Link to={`${companyWebsiteUrl}`} className="visit-link">
+            <a className="visit-link" href={companyWebsiteUrl}>
               Visit
-            </Link>
+            </a>
           </div>
           <p className="job-description">{jobDescription}</p>
           <h1 className="skill">Skills</h1>
